@@ -1,0 +1,5 @@
+(mySltOcs) E:\Program Files (x86)\mySltOcs>main.py
+
+(ocsvenev) H:\python\OcsOfferapi>main.py
+
+(mySltOcs) E:\Program Files (x86)\python\lteProv>

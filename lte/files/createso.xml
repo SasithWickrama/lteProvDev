@@ -1,0 +1,61 @@
+<soapenv:Envelope xmlns:soapenv=http://schemas.xmlsoap.org/soap/envelope/ xmlns:ser=http://webservices/clarity/api/servicemanagement>
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:createServiceOrder>
+         <!--Optional:-->
+         <ServiceOrder>
+            <accountId>0017027379</accountId>
+            <addressIdb>12574847</addressIdb>
+            <areaCode>CEN</areaCode>
+            <attributes>
+               <name>ADSL_CIRCUIT_ID</name>
+               <value>{bbcircuitid}</value>
+            </attributes>
+            <attributes>
+               <name>BB CIRCUIT ID</name>
+               <value>{bbcircuitid}</value>
+            </attributes>
+            <attributes>
+               <name>SA_MEGALINE_PACKAGE</name>
+               <value>{package}</value>
+            </attributes>
+            <attributes>
+               <name>IMSI NO</name>
+               <value>{imsi}</value>
+            </attributes>
+			<attributes>
+               <name>M_CONNECT_REFERENCE</name>
+               <value>{mconnectref}</value>
+            </attributes>
+            <attributes>
+               <name>SERVICE_SPEED</name>
+               <value>LTE</value>
+            </attributes>
+           <attributes>
+               <name>ACTUAL_DSP_DATE</name>
+               <value/>
+            </attributes>
+            <attributes>
+               <name>CUSTOMER CONTACT</name>
+               <value>{customercontact}</value>
+            </attributes>
+            <attributes>
+               <name>EXCHANGE_AREA_CODE</name>
+               <value>KY</value>
+            </attributes>
+            <customerId>CR001695104</customerId>
+            <externalId>6ZA43244_4U4R71</externalId>
+            <finishDate>2023-08-28T06:01:39.506Z</finishDate>
+            <orderType>CREATE</orderType>
+            <projectId/>
+            <servicePriority>1</servicePriority>
+            <serviceSpeed>LTE</serviceSpeed>
+            <serviceType>M-MONNECT</serviceType>
+            <slaClass>STANDARD</slaClass>
+            <workGroup>KY-RTOFFICE</workGroup>
+         </ServiceOrder>
+         <ServiceId></ServiceId>
+         <ParentServiceId/>
+      </ser:createServiceOrder>
+   </soapenv:Body>
+</soapenv:Envelope>
